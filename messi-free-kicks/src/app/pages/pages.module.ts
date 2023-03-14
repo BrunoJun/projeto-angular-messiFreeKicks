@@ -5,12 +5,14 @@ import { HomeComponent } from './home/home.component';
 // Modules
 import { RoutingModule } from './routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { WatchComponent } from './watch/watch.component';
 
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    WatchComponent
   ],
   imports: [
     CommonModule,

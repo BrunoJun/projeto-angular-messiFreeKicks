@@ -1,0 +1,55 @@
+.escolhas{
+
+    margin-left: 484px;
+    border-radius: 5px;
+    font-size: 26px;
+    font-weight: 700;
+    background: #B9B9B9;
+
+    option{
+
+        font-weight: 700;
+        font-size: 23px;
+    }
+}
+
+.principal{
+    
+    display: flex;
+    justify-content: right;
+    background-color: #B9B9B9;
+    width: 837px;
+    height: 545px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+    .separa{
+
+        width: 600px;
+        height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+
+        a{
+            background: #FFF;
+            border-radius: 10px;
+            width: 262px;
+            height: 85px;
+            margin-right: 10px;
+            margin-top: 20px;
+                
+            label{
+                
+                justify-content: center;
+                align-items: center;
+                font-weight: bolder;
+                font-size: 20px;
+                display: flex;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
