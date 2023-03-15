@@ -8,7 +8,6 @@ import { SharedModule } from '../shared/shared.module';
 import { WatchComponent } from './watch/watch.component';
 
 
-
 @NgModule({
   declarations: [
     HomeComponent,
@@ -17,7 +16,7 @@ import { WatchComponent } from './watch/watch.component';
   imports: [
     CommonModule,
     RoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class PagesModule { }

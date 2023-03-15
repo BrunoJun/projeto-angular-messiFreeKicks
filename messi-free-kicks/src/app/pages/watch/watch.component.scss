@@ -1,0 +1,53 @@
+:host{
+
+    .principal{
+
+        justify-content: center;
+        align-content: center;
+        display: flex;
+
+        label{
+            
+            display: flex;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 30px;
+            height: 20px;
+        }
+
+        .ts{
+
+            margin-top: 30px;
+        }
+
+        button{
+
+            cursor: pointer;
+            position: absolute;
+            margin-right: 770px;
+            margin-top: 10px;
+            background-repeat: no-repeat;
+            background-image: url('../../../assets/button_back.svg');
+            background-color: #B9B9B9;
+            border: none;
+            width: 45px;
+            height: 42px;
+        }
+
+        .video{
+
+            display: flex;
+            position: absolute;
+            margin-top: 180px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+
+            iframe{
+                
+                width: 650px;
+                height: 330px;
+            }
+        }
+    }
+}

@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
 import { ListComponent } from './list/list.component';
 import { SelectorComponent } from './selector/selector.component';
+import { ItemComponent } from './item/item.component';
 
 
 
@@ -12,12 +13,15 @@ import { SelectorComponent } from './selector/selector.component';
 
     HeaderComponent,
     ListComponent,
-    SelectorComponent
+    SelectorComponent,
+    ItemComponent
   ],
   exports: [
 
     HeaderComponent,
-    ListComponent
+    ListComponent,
+    SelectorComponent,
+    ItemComponent
   ],
   imports: [
 
