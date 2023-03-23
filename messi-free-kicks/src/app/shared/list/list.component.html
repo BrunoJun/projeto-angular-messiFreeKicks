@@ -1,4 +1,12 @@
 <section class="principal">
-    <app-item></app-item>
+    <section class="separa">
+        <a *ngFor="let gol of listGols">
+            <div>
+                <label>{{gol.data}}</label>
+                <label>{{gol.times}}</label>
+                <label>{{gol.placar}}</label>
+            </div>
+        </a>
+    </section>
 </section>
 
