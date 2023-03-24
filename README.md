@@ -6,7 +6,7 @@ Projeto destinado a praticar conceitos do framework Angular
 
 ## Sobre
 
-Este repositório armazena um projeto com o objetivo de treinar conceitos do framework Angular e tem como tema principal a apresentação dos 61 gols de falta do jogador Lionel Messi. O projeto tem como base de referência outro projeto que realizei durante o curso, realizado na plataforma Udemy, sobre Angular, segue o link do projeto abaixo:
+Este repositório armazena um projeto com o objetivo de treinar conceitos do framework Angular e tem como tema principal a apresentação dos 62 gols de falta do jogador Lionel Messi. O projeto tem como base de referência outro projeto que realizei durante o curso, realizado na plataforma Udemy, sobre Angular, segue o link do projeto abaixo:
 
 <a href="https://github.com/BrunoJun/projetos-angular-udemy/tree/main/Projetos/pokedex">Projeto referência</a>
 
