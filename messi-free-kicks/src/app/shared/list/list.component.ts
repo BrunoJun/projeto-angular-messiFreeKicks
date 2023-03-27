@@ -1,17 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FreeKicks } from 'src/app/module/free-kicks-list';
+import { FreeKicksServiceService } from 'src/app/services/free-kicks-service.service';
 
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']
 })
-export class ListComponent {
+export class ListComponent implements OnInit{
 
-  public listGols = [
+  public listGols: Array<FreeKicks> = []
 
-    {data: '04/10/2008', times: 'Dynamo Kyiv - FC Barcelona', placar: '1 - 2'},
-    {data: '01/01/2010', times: 'Tima a - FC Barcelona', placar: '2 - 3'},
-    {data: '01/01/2010', times: 'Tima a - FC Barcelona', placar: '2 - 3'}
-  ]
+  constructor (private freeKicksServiceService: FreeKicksServiceService){}
 
+  ngOnInit(): void {
+
+    this.freeKicksServiceService.freeKickList().subscribe(
+      {
+        next: (res) => this.listGols = res,
+        error: (err) => console.log(err),
+      }
+    )
+  }
 }

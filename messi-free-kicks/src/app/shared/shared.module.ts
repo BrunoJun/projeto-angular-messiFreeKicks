@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+
+import { HeaderComponent } from './header/header.component';
 import { ListComponent } from './list/list.component';
 import { SelectorComponent } from './selector/selector.component';
 
@@ -23,7 +25,8 @@ import { SelectorComponent } from './selector/selector.component';
   imports: [
 
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ]
 })
 export class SharedModule { }

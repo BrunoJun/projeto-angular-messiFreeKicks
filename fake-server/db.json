@@ -1,11 +1,11 @@
 {
     "list-free-kicks": [
 
-        {"id": 1, "data": "04/10/2008", "times": "Barcelona - Atlético de Madrid", "placar": "6 - 1", "url": "FKt2BqtBvFI"},
+        {"id": 1, "data": "04/10/2008", "times": "Barcelona - Atl. de Madrid", "placar": "6 - 1", "url": "FKt2BqtBvFI"},
         {"id": 2, "data": "12/09/2009", "times": "Barcelona - Dínamo Kyiv", "placar": "2 - 1", "url": "9AAkR9Pvh4Q"},
         {"id": 3, "data": "06/03/2010", "times": "Barcelona - Almería", "placar": "2 - 2", "url": "s6QHS5Gw3P0"},
-        {"id": 4, "data": "08/01/2011", "times": "Barcelona - Deportivo La Coruña", "placar": "4 - 0", "url": "yAJywaMuLcQ"},
-        {"id": 5, "data": "26/02/2012", "times": "Barcelona - Atlético de Madrid", "placar": "2 - 1", "url": "yw_Mkb_6hY8"},
+        {"id": 4, "data": "08/01/2011", "times": "Barcelona - Dep. La Coruña", "placar": "4 - 0", "url": "yAJywaMuLcQ"},
+        {"id": 5, "data": "26/02/2012", "times": "Barcelona - Atl. de Madrid", "placar": "2 - 1", "url": "yw_Mkb_6hY8"},
         {"id": 6, "data": "24/03/2012", "times": "Barcelona - Maiorca", "placar": "2 - 0", "url": "LoFaN3rl0hY"},
         {"id": 7, "data": "05/05/2012", "times": "Barcelona - Espanyol", "placar": "4- 0", "url": "6IPRjrgnduk"},
         {"id": 8, "data": "29/08/2012", "times": "Barcelona - Real Madrid", "placar": "1 - 2", "url": "wtp5tE6IPzU"},
@@ -22,7 +22,7 @@
         {"id": 19, "data": "08/02/2015", "times": "Barcelona - Athletic Club", "placar": "5 - 2", "url": "sSR1XRSGk_M"},
         {"id": 20, "data": "11/08/2015", "times": "Barcelona - Sevilla", "placar": "5 - 4", "url": "XVFnphj_DYQ"},
         {"id": 21, "data": "11/08/2015", "times": "Barcelona - Sevilla", "placar": "5 - 4", "url": "WFS30EwyTJ0"},
-        {"id": 22, "data": "12/12/2015", "times": "Barcelona - Deportivo La Coruña", "placar": "2 - 2", "url": "uCr1i2kz7is"},
+        {"id": 22, "data": "12/12/2015", "times": "Barcelona - Dep. La Coruña", "placar": "2 - 2", "url": "uCr1i2kz7is"},
         {"id": 23, "data": "06/01/2016", "times": "Barcelona - Espanyol", "placar": "4 - 1", "url": "IBVXwij3Opc"},
         {"id": 24, "data": "14/02/2016", "times": "Barcelona - Celta de Vigo", "placar": "6 - 1", "url": "hTVY8glMows"},
         {"id": 25, "data": "28/02/2016", "times": "Barcelona - Sevilla", "placar": "2 - 1", "url": "KDEZ2I98ltA"},
@@ -39,7 +39,7 @@
         {"id": 36, "data": "28/01/2018", "times": "Barcelona - Alavés", "placar": "2 - 1", "url": "jnopTsnWxj4"},
         {"id": 37, "data": "24/02/2018", "times": "Barcelona - Girona", "placar": "6 - 1", "url": "_v8Q79Adxy0"},
         {"id": 38, "data": "01/03/2018", "times": "Barcelona - Las Palmas", "placar": "1 - 1", "url": "luDmU2IK7dg"},
-        {"id": 39, "data": "04/03/2018", "times": "Barcelona - Atlético de Madrid", "placar": "1 - 0", "url": "Yp5IU1YlUd0"},
+        {"id": 39, "data": "04/03/2018", "times": "Barcelona - Atl. de Madrid", "placar": "1 - 0", "url": "Yp5IU1YlUd0"},
         {"id": 40, "data": "07/04/2018", "times": "Barcelona - Leganés", "placar": "3 - 1", "url": "HE5D7vI2S-E"},
         {"id": 41, "data": "18/09/2018", "times": "Barcelona - Alavés", "placar": "3 - 0", "url": "I9mUYqAusAo"},
         {"id": 42, "data": "18/09/2018", "times": "Barcelona - PSV", "placar": "4 - 0", "url": "R1fK09sKHWg"},
