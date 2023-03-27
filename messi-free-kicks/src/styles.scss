@@ -1,26 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-.principal{
-    
+.principal {
+
     display: flex;
     justify-content: right;
     background-color: #B9B9B9;
-    width: 837px;
-    height: 545px;
+    width: 850px;
+    height: 420px;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
 }
 
-html{
+html {
 
     background-image: url('./assets/background_messi.png');
     background-repeat: no-repeat;
     background-size: cover;
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #B9B9B9;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
 }
 
-label{
+label {
 
     font-family: "Inter";
     font-size: 20px;
