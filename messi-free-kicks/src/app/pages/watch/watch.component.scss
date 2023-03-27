@@ -11,13 +11,13 @@
             display: flex;
             justify-content: center;
             font-weight: 900;
-            font-size: 30px;
+            font-size: 25px;
             height: 20px;
         }
 
         .ts{
 
-            margin-top: 30px;
+            margin-top: 5px;
         }
 
         button{
@@ -38,15 +38,15 @@
 
             display: flex;
             position: absolute;
-            margin-top: 180px;
+            margin-top: 130px;
             justify-content: center;
             align-items: center;
-            border-radius: 10px;
 
             iframe{
                 
-                width: 650px;
-                height: 330px;
+                width: 600px;
+                height: 280px;
+                border-radius: 10px;
             }
         }
     }
