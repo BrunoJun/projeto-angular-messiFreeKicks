@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ListComponent } from '../list/list.component';
 
 @Component({
   selector: 'app-selector',
@@ -8,11 +9,18 @@ import { Component } from '@angular/core';
 
 export class SelectorComponent {
 
-  public listAdversarios = ['Todos', 'Ajax', 'Alavés', 'Almeria', 'Athletic Club', 'Atlético de Madrid',
-                          'Celta de Vigo', 'Chile', 'Colombia', 'Deportivo La Coruña', 'Dínamo Kyiv',
+  constructor (private list: ListComponent){}
+
+  public listAdversarios = ['Todos', 'Ajax', 'Alavés', 'Almeria', 'Athletic Club', 'Atl. de Madrid',
+                          'Celta de Vigo', 'Chile', 'Colombia', 'Dep. La Coruña', 'Dínamo Kyiv',
                           'Equador', 'Espanyol', 'Estados Unidos', 'Girona', 'Granada', 'Jamaica',
                           'Las Palmas', 'Leganés', 'Liverpool', 'LOSC Lille', 'Maiorca', 'Nice',
                           'Nigéria', 'Olympiacos', 'Osasuna', 'Panamá', 'Paraguai', 'PSV',
                           'Real Betis', 'Real Madrid', 'Real Sociedad', 'Sevilla', 'Uruguai',
                           'Valencia', 'Villareal']
+
+  public sendValue(valor: any){
+
+    this.list.receiveValue(valor);
+  }
 }

@@ -1,7 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { FreeKicks } from 'src/app/module/free-kicks-list';
+import { Component, OnInit, Injectable } from '@angular/core';
 import { FreeKicksServiceService } from 'src/app/services/free-kicks-service.service';
+import { SelectorComponent } from '../selector/selector.component';
+import { FreeKicks } from 'src/app/module/free-kicks-list';
 
+@Injectable({
+  providedIn: 'root'
+})
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -9,17 +13,26 @@ import { FreeKicksServiceService } from 'src/app/services/free-kicks-service.ser
 })
 export class ListComponent implements OnInit{
 
-  public listGols: Array<FreeKicks> = []
+  public listGols: any
 
-  constructor (private freeKicksServiceService: FreeKicksServiceService){}
+  constructor (private freeKicksService: FreeKicksServiceService){}
 
   ngOnInit(): void {
 
-    this.freeKicksServiceService.freeKickList().subscribe(
+    this.freeKicksService.freeKickList.subscribe(
       {
-        next: (res) => this.listGols = res,
+        next: (res) => {
+          
+          this.listGols = res
+          console.log('ngOnit = ' + this.listGols)
+        },
         error: (err) => console.log(err),
       }
     )
+  }
+
+  public receiveValue(valor: string){
+
+    console.log('lista = ' + this.listGols)
   }
 }

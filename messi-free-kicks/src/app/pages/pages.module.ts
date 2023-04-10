@@ -17,6 +17,10 @@ import { WatchComponent } from './watch/watch.component';
     CommonModule,
     RoutingModule,
     SharedModule,
+  ],
+  exports: [
+
+    HomeComponent
   ]
 })
 export class PagesModule { }

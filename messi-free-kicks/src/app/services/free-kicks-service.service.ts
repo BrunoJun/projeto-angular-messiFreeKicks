@@ -19,7 +19,7 @@ export class FreeKicksServiceService {
   constructor(private http: HttpClient) { }
 
   // GET
-  public freeKickList(): Observable<Array<FreeKicks>> {
+  get freeKickList(): Observable<Array<FreeKicks>> {
 
     return this.http.get<Array<FreeKicks>>(`${this.url}list-free-kicks`, this.httOptions)
     .pipe(

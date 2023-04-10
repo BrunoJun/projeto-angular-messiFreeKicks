@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { ListComponent } from './list/list.component';
 import { SelectorComponent } from './selector/selector.component';
+import { HomeComponent } from '../pages/home/home.component';
 
 
 

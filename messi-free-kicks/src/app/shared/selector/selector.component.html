@@ -1,5 +1,5 @@
 <div>
-    <select class="escolhas">
+    <select #seletor (change)="sendValue(seletor.value)" class="escolhas">
         <option *ngFor="let adversario of listAdversarios">{{adversario}}</option>
     </select>
 </div>
