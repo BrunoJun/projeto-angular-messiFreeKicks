@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 // Modules
 import { PagesModule } from './pages/pages.module';
+import { ListComponent } from './shared/list/list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { PagesModule } from './pages/pages.module';
     AppRoutingModule,
     PagesModule
   ],
-  providers: [],
+  providers: [ListComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
