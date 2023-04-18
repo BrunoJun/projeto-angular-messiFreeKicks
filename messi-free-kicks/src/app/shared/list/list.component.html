@@ -2,7 +2,7 @@
 
 <section class="principal">
     <section class="separa">
-        <a *ngFor="let gol of listGols">
+        <a href="/watch/{{gol.id}}" *ngFor="let gol of listGols">
             <div class="teste">
                 <label class="data">{{gol.data}}</label>
                 <label class="times">{{gol.times}}</label>

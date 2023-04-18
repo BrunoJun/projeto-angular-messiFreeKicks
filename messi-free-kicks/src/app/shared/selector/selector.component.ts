@@ -11,7 +11,7 @@ export class SelectorComponent {
 
   constructor (private list: ListComponent){}
 
-  public listAdversarios = ['Todos', 'Ajax', 'Alavés', 'Almeria', 'Athletic Club', 'Atl. de Madrid',
+  public listAdversarios = ['Todos', 'Ajax', 'Alavés', 'Almería', 'Athletic Club', 'Atl. de Madrid',
                           'Celta de Vigo', 'Chile', 'Colombia', 'Dep. La Coruña', 'Dínamo Kyiv',
                           'Equador', 'Espanyol', 'Estados Unidos', 'Girona', 'Granada', 'Jamaica',
                           'Las Palmas', 'Leganés', 'Liverpool', 'LOSC Lille', 'Maiorca', 'Nice',

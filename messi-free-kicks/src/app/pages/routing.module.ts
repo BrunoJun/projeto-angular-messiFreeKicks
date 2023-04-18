@@ -7,7 +7,7 @@ import { WatchComponent } from './watch/watch.component';
 
 const routes: Routes = [
     {path: "", component: HomeComponent},
-    {path: "watch", component: WatchComponent}
+    {path: "watch/:id", component: WatchComponent}
 ];
 
 @NgModule({
