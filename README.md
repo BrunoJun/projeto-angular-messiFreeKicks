@@ -19,7 +19,7 @@ Este repositório armazena um projeto com o objetivo de treinar conceitos do fra
 
 ## Projeto
 
-<img src="imgs/Teste.gif">
+<img src="imgs/Teste.gif" alt="Simulação do programa">
 
 ## Licença
 
