@@ -17,9 +17,9 @@ Este repositório armazena um projeto com o objetivo de treinar conceitos do fra
 * Node - 18.14.1
 * npm (Gerenciador de pacotes) - 9.3.1
 
-## Programa
+## Projeto
 
-<img src="C:\Users\Jun\Videos\Teste.gif">
+<img src="imgs/Teste.gif">
 
 ## Licença
 
@@ -27,7 +27,7 @@ Este projeto utiliza a licença MIT License. Para mais informações acesse <a h
 
 ## Status
 
-:construction_worker: **EM ANDAMENTO** :construction_worker:
+:white_check_mark: **FINALIZADO** :white_check_mark:
 
 ## Autor
 
