@@ -10,10 +10,6 @@ Este repositório armazena um projeto com o objetivo de treinar conceitos do fra
 
 <a href="https://github.com/BrunoJun/projetos-angular-udemy/tree/main/Projetos/pokedex">Projeto referência</a>
 
-Alguns conceitos aplicados neste projeto:
-
-:exclamation: **SERÁ ADICIONADO NO FINAL DO PROJETO** :exclamation:
-
 ## Tecnologias
 
 * Visual Studio Code - 1.76.2
@@ -21,9 +17,9 @@ Alguns conceitos aplicados neste projeto:
 * Node - 18.14.1
 * npm (Gerenciador de pacotes) - 9.3.1
 
-## Imagens das telas
+## Programa
 
-:exclamation: **SERÁ ADICIONADO NO FINAL DO PROJETO** :exclamation:
+<img src="C:\Users\Jun\Videos\Teste.gif">
 
 ## Licença
 
